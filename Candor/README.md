@@ -1,10 +1,12 @@
+<!-- @format -->
+
 # Candor
 
 The Candor mobile app (iOS/Android) — anonymous Q&A / messaging built with React Native and Expo. Users share a personal card link, receive anonymous questions or messages, reply, run public polls, chat in groups, and can subscribe to a paid tier (pro cards, audio cards, "Chat with Me", donations/revenue share).
 
 It talks to the [Candor_Backend](../Candor_Backend) GraphQL API; see also the [CandorAdmin](../CandorAdmin) dashboard used internally to manage the backend data.
 
-## Tech stack
+## Tech stack.
 
 - **Framework**: React Native 0.70 on Expo SDK 47 (TypeScript), Hermes JS engine
 - **Navigation**: React Navigation (native stack + stack), split into `authStack` / `userStack`
@@ -55,19 +57,24 @@ android/ , ios/            # Native project files (Expo prebuild / bare workflow
 ## Setup
 
 1. Install dependencies:
+
    ```bash
    yarn install
    # or
    npm install
    ```
+
    This project uses [`patch-package`](patches/) — patches are applied automatically via the `postinstall` script.
 
 2. Start the Metro bundler with a dev client:
+
    ```bash
    yarn start
    # or: npm run start
    ```
+
    Alternatively, run in classic Expo Go:
+
    ```bash
    npm run start:go
    ```
