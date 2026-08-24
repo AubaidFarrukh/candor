@@ -1,0 +1,67 @@
+$vw-viewport: 1920;
+@function get-vw($font) {
+  $vw-context: $vw-viewport * 0.01 * 1px;
+  @return calc($font / $vw-context) * 1vw;
+  @return $font;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Fredoka&family=Fredoka+One&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Rubik;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+input,
+textarea {
+  outline: none;
+}
+
+.tool {
+  width: fit-content;
+  height: auto;
+  padding: get-vw(20px);
+  border-radius: get-vw(11px);
+  box-shadow: 0 get-vw(3px) get-vw(6px) 0 rgba(0, 0, 0, 0.16);
+  border: solid 1px #1795f9;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.thead {
+  font-family: Rubik;
+  font-size: get-vw(13px);
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1795f9;
+  margin-bottom: get-vw(2px);
+}
+.ttext {
+  font-family: Rubik;
+  font-size: get-vw(13px);
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9b9b9b;
+}
+.space {
+  margin-bottom: get-vw(20px);
+}

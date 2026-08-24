@@ -1,0 +1,7 @@
+.DS_Store
+node_modules/
+
+# Live secrets / credentials — never commit these
+Candor_Backend/.env
+Candor/android/app/google-services.json
+Candor/ios/GoogleService-Info.plist

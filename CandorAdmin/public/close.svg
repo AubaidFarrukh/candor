@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
+    <g data-name="Group 3756" transform="translate(-1793.58 -663)">
+        <circle data-name="Ellipse 996" cx="16.5" cy="16.5" r="16.5" transform="translate(1793.58 663)" style="fill:red"/>
+        <path data-name="Icon material-delete-forever" d="M8.485 20.257a1.975 1.975 0 0 0 1.97 1.97h7.878a1.975 1.975 0 0 0 1.97-1.97V8.439H8.485zm2.423-7.012 1.392-1.389 2.1 2.088 2.088-2.088 1.389 1.389-2.088 2.088 2.081 2.087-1.389 1.389-2.088-2.088-2.088 2.088-1.388-1.389L13 15.333zm6.933-7.76-.985-.985h-4.924l-.985.985H7.5v1.97h13.787v-1.97z" transform="translate(1795.688 666.637)" style="fill:#fff"/>
+    </g>
+</svg>

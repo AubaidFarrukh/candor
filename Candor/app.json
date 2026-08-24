@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Candor",
+    "slug": "candor",
+    "version": "1.1.0",
+    "owner": "bsocial_inc",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-image-picker",
+      "react-native-compressor"
+    ],
+    "jsEngine": "hermes",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.besocial.candor",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": "false"
+      }
+    },
+    "android": {
+      "package": "com.besocial.candor",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "239a5502-1223-4aed-95a5-c01dee3741cd"
+      }
+    }
+  }
+}
